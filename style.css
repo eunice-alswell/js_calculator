@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% );
+}
+.calculator{
+    max-width: 480px;
+    position: relative;
+    text-align: center;
+    margin-top: 14%;
+    left:34%;
+    padding: 5px;
+    border: radius 3px;
+    box-shadow: 2px 2px 2px 2px  #f0f0f0ea;
+    background-color: rgba(240, 242, 245, 0.959);
+}
+.display{
+    text-align: left;
+    width: 370px;
+    height: 50px;
+    padding: 2px;
+    margin: 15px;
+    margin-left: 54px;
+    justify-content: center;
+    font-size: 2.1rem;
+    overflow-x: auto;
+    border: 1px solid rgb(203, 204, 204);
+    border-radius: 3px;
+    background-color: #ffff;
+}
+.left-side{
+    display:inline-block;
+}
+.right-side{
+    display:inline-block;
+}
+
+.numbers div{
+    display:inline-block;
+    width: 5%;    
+    margin: 5px 6px;
+    padding: 10px 22px 10px 22px;
+    /* border: 1px solid black; */
+    border-radius: 2px;
+    /* background-color: #d7dddd; */
+    box-shadow: 0 2px 2px 0 rgb(202, 203, 206);
+    transition: border-color .2s ease-in-out;
+}
+.numbers div:hover{
+    background-color:rgba(216, 219, 219, 0.973);
+}
+.symbols div{
+    display:inline-block;
+    width: 10%;
+    margin: 5px 6px;
+    padding: 10px 22px 10px 22px;
+    /* border: 1px solid black; */
+    border-radius: 2px;
+    background-color: #d7dddd;
+    box-shadow: 0 2px 2px 0 rgb(137, 139, 143);
+    transition: border-color .2s ease-in-out;
+    font-weight: 1bold;
+}
+.symbols div:hover{
+    background-color:rgba(170, 175, 175, 0.973);
+    color: #ffffff;
+}
+div.equal{
+    padding: 5px 60px;
+    background-color: #47a2f8;    
+}
+
